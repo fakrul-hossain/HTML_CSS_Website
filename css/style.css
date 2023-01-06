@@ -7,17 +7,29 @@
     font-weight: 600;
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
-    padding: 18px;
+    padding: 18px 40px;
     border-radius: 8px;
     text-decoration: none;
 }
 .btn_primary{
     background-color: #FFFFFF;
     color: #005FAC;
+    transition: 0.5s;
+}
+.btn_primary:hover{
+    color: #FFFFFF;
+    background: #005FAC;
+    transition: 0.5s;
 }
 .btn_secondary{
     background: #005FAC;
     color: #FFFFFF;
+    transition: 0.5s;
+}
+.btn_secondary:hover{
+    background-color: #FFFFFF;
+    color: #005FAC;
+    transition: 0.5s;
 }
 section{
     max-width: 1140px;
@@ -104,14 +116,58 @@ header{
     background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
     background-size: cover;
     border-radius:  8px;
-    margin-bottom: 300px;
 }
 .contract_content{
     padding: 60px 70px;
-
+    margin-bottom: 150px;
 }
 .contact_title{
     color: #FFFFFF;
     margin-bottom: 35px;
 }
 /* contract section end */
+/* footer section start  */
+.footer{
+    background: #151414
+    /* max-width: 1140px; */
+}
+.footer_content{
+    max-width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    gap: 200px;
+    padding: 150px 0;
+}
+.footer_title{
+    color: #F8F8F8;
+}
+.footer_description{
+    margin: 8px 0 22px 0;
+    color: #F8F8F8;
+}
+.footer_social_icon{
+    margin: 50px 16px 0 0;
+}
+.footer_sub_title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.footer input{
+    width: 100%;
+    padding: 24px 0;
+    background-color: #151414;
+    color: #FFFFFF;
+    caret-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 35px;
+}
+.footer ::placeholder{
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+}
+/* footer section end  */

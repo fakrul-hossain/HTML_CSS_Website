@@ -24,10 +24,6 @@ section{
     margin: 0 auto;
     margin-top: 150px;
 }
-/* .align{
-    max-width: 1140px;
-    margin: 0 auto;
-} */
 .section_title{
     font-weight: 700;
     font-size: 40px;
@@ -43,7 +39,6 @@ section{
 header{
     background-image: url(../images/banner/banner3.png);
     background-size: cover;
-
 }
 .header_content{
     /* width: 230px; */
@@ -58,8 +53,7 @@ header{
 /* technology section start */
 .technology_part{
     display: flex;
-    /* max-width: 1140px; */
-    gap: 100px;
+    gap: 120px;
     justify-content: space-around;
 }
 .technology_description{
@@ -77,3 +71,47 @@ header{
     color: #16D887;
 }
 /* technology section end */
+/* my plan section start */
+.my_plan{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+.plan_section_title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plan_list{
+    display: flex;
+    gap: 180px;
+    justify-content: space-between;
+}
+.plan_title{
+    margin: 16px 0;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.plan_description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+/* my plan section end */
+/* contract section start */
+.contact{
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    background-size: cover;
+    border-radius:  8px;
+    margin-bottom: 300px;
+}
+.contract_content{
+    padding: 60px 70px;
+
+}
+.contact_title{
+    color: #FFFFFF;
+    margin-bottom: 35px;
+}
+/* contract section end */

@@ -54,7 +54,6 @@ header {
   background-size: cover;
 }
 nav {
-  /* max-width: 1140px; */
   display: flex;
   justify-content: space-between;
   padding: 60px 300px 0 300px;
@@ -97,23 +96,23 @@ nav ul li a {
 }
 /* banner section end */
 /* technology section start */
-.technology_part {
+.about_part {
   display: flex;
   gap: 120px;
   justify-content: space-around;
 }
-.technology_description {
+.about_description {
   color: #444343;
 }
-.technology_left_area {
+.about_left_area {
   margin-top: 250px;
 }
-.technology_left_area li {
+.about_left_area li {
   list-style-type: none;
   color: #444343;
   margin-bottom: 5px;
 }
-.technology_left_area li i {
+.about_left_area li i {
   color: #16d887;
 }
 /* technology section end */

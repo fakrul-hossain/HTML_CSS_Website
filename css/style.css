@@ -54,12 +54,21 @@ header{
 }
 .header_content{
     /* width: 230px; */
-    padding: 230px 0 450px 160px;
+    padding: 230px 160px 450px 0;
+    text-align: right;
+    height: 220px;
+    max-width: 500px;
+    width: 100%;
+    margin-left: auto;
 }
 .header_title{
     font-weight: 700;
     font-size: 65px;
     color: #FFFFFF;
+}
+.header_description{
+    padding-bottom: 30px;
+    line-height: 30px;
 }
 /* banner section end */
 /* technology section start */
@@ -102,15 +111,60 @@ header{
 .plan_title{
     margin: 16px 0;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 21px;
     color: #151414;
 }
 .plan_description{
     font-weight: 500;
-    font-size: 25px;
+    font-size: 18px;
     color: #737272;
 }
 /* my plan section end */
+/* blog section start */
+.blog{
+    /* max-width: 1140px; */
+}
+.blog_title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.blog_area{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.blog_content{
+    /* width: 20px; */
+    padding: 15px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+}
+.blog_content img{
+    height: 300px;
+    width: 240px;
+    border-radius: 8px;
+}
+.blog_sub_title{
+    margin: 16px 0;
+    font-weight: 700;
+    font-size: 21px;
+    color: #151414;
+}
+.blog_description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #444343;
+    margin-bottom: 10px;
+}
+.blog_content a{
+    margin-top: 25px;
+    text-decoration: underline;
+    color: #000;
+}
 /* contract section start */
 .contact{
     background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
